@@ -1,0 +1,42 @@
+meta:
+  schema-version: 0.1.0
+  created-on: "2024-05-09T12:15:54Z"
+  cli-version: 0.2.0
+projects:
+  morrisongdwn-teletrace-web-yarn.lock:
+    targets:
+      - package.json
+    manager:
+      ecosystem: node
+      name: yarn
+      version: "1"
+    overrides:
+      axios:
+        0.27.2:
+          use: 0.27.2-sp1
+      tough-cookie:
+        4.1.2:
+          use: 4.1.2-sp1
+      semver:
+        6.3.0:
+          use: 6.3.0-sp1
+        7.3.8:
+          use: 7.3.8-sp1
+      webpack-dev-middleware:
+        5.3.3:
+          use: 5.3.3-sp1
+      word-wrap:
+        1.2.3:
+          use: 1.2.3-sp1
+      follow-redirects:
+        1.15.2:
+          use: 1.15.2-sp1
+      postcss:
+        7.0.39:
+          use: 7.0.39-sp1
+      nth-check:
+        1.0.2:
+          use: 1.0.2-sp1
+      json5:
+        2.2.1:
+          use: 2.2.1-sp1
